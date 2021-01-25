@@ -1,0 +1,13 @@
+C:\Users\Josh\source\repos\regexTutorial\regexTutorial\obj\Debug\netcoreapp3.1\regexTutorial.csprojAssemblyReference.cache
+C:\Users\Josh\source\repos\regexTutorial\regexTutorial\obj\Debug\netcoreapp3.1\regexTutorial.AssemblyInfoInputs.cache
+C:\Users\Josh\source\repos\regexTutorial\regexTutorial\obj\Debug\netcoreapp3.1\regexTutorial.AssemblyInfo.cs
+C:\Users\Josh\source\repos\regexTutorial\regexTutorial\obj\Debug\netcoreapp3.1\regexTutorial.csproj.CoreCompileInputs.cache
+C:\Users\Josh\source\repos\regexTutorial\regexTutorial\bin\Debug\netcoreapp3.1\regexTutorial.exe
+C:\Users\Josh\source\repos\regexTutorial\regexTutorial\bin\Debug\netcoreapp3.1\regexTutorial.deps.json
+C:\Users\Josh\source\repos\regexTutorial\regexTutorial\bin\Debug\netcoreapp3.1\regexTutorial.runtimeconfig.json
+C:\Users\Josh\source\repos\regexTutorial\regexTutorial\bin\Debug\netcoreapp3.1\regexTutorial.runtimeconfig.dev.json
+C:\Users\Josh\source\repos\regexTutorial\regexTutorial\bin\Debug\netcoreapp3.1\regexTutorial.dll
+C:\Users\Josh\source\repos\regexTutorial\regexTutorial\bin\Debug\netcoreapp3.1\regexTutorial.pdb
+C:\Users\Josh\source\repos\regexTutorial\regexTutorial\obj\Debug\netcoreapp3.1\regexTutorial.dll
+C:\Users\Josh\source\repos\regexTutorial\regexTutorial\obj\Debug\netcoreapp3.1\regexTutorial.pdb
+C:\Users\Josh\source\repos\regexTutorial\regexTutorial\obj\Debug\netcoreapp3.1\regexTutorial.genruntimeconfig.cache
