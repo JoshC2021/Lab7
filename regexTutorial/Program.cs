@@ -31,25 +31,25 @@ namespace regexTutorial
         // {alphanumeric charcters length 5-30}@{alphanumeric characters length of 5-10}.{alphanumeric characters length 2-3}
         public static bool IsEmail(string s)
         {
-            return Regex.IsMatch(s, "^[a-zA-Z0-9]{5,30}@[a-zA-Z0-9]{5,10}\\.[a-zA-Z0-9]{2,3}$");
+            return Regex.IsMatch(s, "^[\\d\\w_]{5,30}@[\\w\\d]{5,10}\\.[\\w\\d]{2,3}$");
         }
 
         // phone number must be in a format of DDD-DDD-DDDD
         public static bool IsPhoneNumber(string s)
         {
-            return Regex.IsMatch(s,"^[0-9]{3}-[0-9]{3}-[0-9]{4}$");
+            return Regex.IsMatch(s, "^\\d{3}-\\d{3}-\\d{4}$");
         }
 
         // date must be in a format dd/mm/yyyy
         public static bool IsDate(string s)
         {
-            return Regex.IsMatch(s, "^[0-9]{2}/[0-9]{2}/[0-9]{4}$");
+            return Regex.IsMatch(s, "^\\d{2}/\\d{2}/\\d{4}$");
         }
 
         // html tag must be in format <h1> content </h1>
         public static bool IsHTML(string s)
         {
-            return Regex.IsMatch(s, "^<!?[A-Za-z0-9]>[A-za-z0-9 ]*</[A0Za-z0-9]>$");
+            return Regex.IsMatch(s, "^<!?\\w>[\\w\\s]*</\\w>$");
         }
 
 
