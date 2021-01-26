@@ -8,10 +8,15 @@ namespace regexTutorial
         static void Main(string[] args)
         {
             Console.WriteLine(IsName("Joshua"));
+            Console.WriteLine(IsName("not a name"));
             Console.WriteLine(IsPhoneNumber("123-456-7890"));
+            Console.WriteLine(IsPhoneNumber("911"));
             Console.WriteLine(IsEmail("johndoes@gmail.com"));
+            Console.WriteLine(IsEmail("fakeemail@fake.fake"));
             Console.WriteLine(IsDate("01/25/2021"));
+            Console.WriteLine(IsDate("2020 sucks"));
             Console.WriteLine(IsHTML("<p>This tag is great</p>"));
+            Console.WriteLine(IsHTML("<p>This tag is bad<>"));
         }
 
 
