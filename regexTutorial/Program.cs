@@ -7,14 +7,19 @@ namespace regexTutorial
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Testing IsName");
             Console.WriteLine(IsName("Joshua"));
             Console.WriteLine(IsName("not a name"));
+            Console.WriteLine("Testing IsPhoneNumber");
             Console.WriteLine(IsPhoneNumber("123-456-7890"));
             Console.WriteLine(IsPhoneNumber("911"));
-            Console.WriteLine(IsEmail("johndoes@gmail.com"));
+            Console.WriteLine("Testing IsEmail");
+            Console.WriteLine(IsEmail("john_doe@gmail.com"));
             Console.WriteLine(IsEmail("fakeemail@fake.fake"));
+            Console.WriteLine("Testing IsDate");
             Console.WriteLine(IsDate("01/25/2021"));
             Console.WriteLine(IsDate("2020 sucks"));
+            Console.WriteLine("Testing IsHRML");
             Console.WriteLine(IsHTML("<p>This tag is great</p>"));
             Console.WriteLine(IsHTML("<p>This tag is bad<>"));
         }
