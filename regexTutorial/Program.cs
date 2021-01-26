@@ -11,7 +11,7 @@ namespace regexTutorial
             Console.WriteLine(IsPhoneNumber("123-456-7890"));
             Console.WriteLine(IsEmail("johndoes@gmail.com"));
             Console.WriteLine(IsDate("01/25/2021"));
-            Console.WriteLine(IsHTML("<p></p>"));
+            Console.WriteLine(IsHTML("<p>This tag is great</p>"));
         }
 
 
@@ -41,10 +41,10 @@ namespace regexTutorial
             return Regex.IsMatch(s, "^[0-9]{2}/[0-9]{2}/[0-9]{4}$");
         }
 
-        // html tag must be in format <h1></h1>
+        // html tag must be in format <h1> content </h1>
         public static bool IsHTML(string s)
         {
-            return Regex.IsMatch(s, "^<!?[A-Za-z0-9]></[A0Za-z0-9]>$");
+            return Regex.IsMatch(s, "^<!?[A-Za-z0-9]>[A-za-z0-9 ]*</[A0Za-z0-9]>$");
         }
 
 
