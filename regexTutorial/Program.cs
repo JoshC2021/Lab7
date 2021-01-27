@@ -19,7 +19,7 @@ namespace regexTutorial
             Console.WriteLine("Testing IsDate");
             Console.WriteLine(IsDate("01/25/2021"));
             Console.WriteLine(IsDate("2020 sucks"));
-            Console.WriteLine("Testing IsHRML");
+            Console.WriteLine("Testing IsHTML");
             Console.WriteLine(IsHTML("<p>This tag is great</p>"));
             Console.WriteLine(IsHTML("<p>This tag is bad<>"));
         }
